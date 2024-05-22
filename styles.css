@@ -8,29 +8,46 @@
 header{
     margin: 2px solid;
     background-color: aqua;
+    background-image: url(assets/banner-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header1 {
     display: flex;
     justify-content: space-between;
     border: 2px solid;
-    padding: 4rem 8rem 1rem;
+    padding: 1rem 8rem 0rem;
+    color: aliceblue;
+    align-items: center;
 }
 
 .header2{
     border: 2px solid;
-    padding: 4rem 8rem 4rem;
+    padding: 1rem 8rem 1rem;
+    color: aliceblue;
+}
+
+.header2 button{
+    border-radius: 3rem;
+    background-color: rgb(26, 202, 79);
+    padding: .5rem;
+    margin: 2rem 0rem 0rem;
+}
+
+.textheader2{
+    padding: 2rem 0rem 0rem;
 }
 
 .main{
-background-color: rgb(49, 180, 78);
+background-color: #fff;
 }
 
 .div1{
     display: flex;
     border: 2px solid;
     flex-direction: column;
-    padding: 4rem 8rem 4rem;
+    padding: 2rem 8rem 2rem;
 }
 
 .article1{
@@ -46,14 +63,14 @@ background-color: rgb(49, 180, 78);
 .div2{
     display: flex;
     justify-content: space-around;
-    padding: 4rem 8rem 4rem;
+    padding: 2rem 8rem 2rem;
     border: 2px solid;
 }
 
 .div3{
     display: flex;
     justify-content: space-around;
-    padding: 4rem 8rem 4rem;
+    padding: 2rem 8rem 2rem;
     border: 2px solid;
 }
 
@@ -61,7 +78,7 @@ background-color: rgb(49, 180, 78);
     display: flex;
     border: 2px solid;
     flex-direction: column;
-    padding: 4rem 8rem 4rem;
+    padding: 2rem 8rem 2rem;
     border: 2px solid;
 }
 
@@ -80,10 +97,90 @@ background-color: rgb(49, 180, 78);
     display: flex;
     justify-content: space-around;
     border: 2px solid;
-    padding: 4rem 8rem 4rem;
+    padding: 2rem 8rem 2rem;
 }
 
 button{
-    border-radius: 2rem;
-    background-color: rgb(42, 165, 79);
+    border-radius: 3rem;
+    background-color: rgb(52, 79, 202);
+    padding: .5rem;
+    margin: 2rem 0rem 0rem;
+}
+
+.price1{
+    display: flex;
+}
+
+.footer{
+    border: 2px solid;
+}
+
+.footer h2{
+    padding: 0rem 0rem 1rem;
+}
+
+.Lorem{
+    padding: 0rem 0rem 1.5rem;
+}
+
+.Lorem2 p{
+    padding: 0rem 0rem .5rem;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    padding: 2rem 8rem 2rem;
+}
+
+.Data1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0rem 0rem;
+}
+
+.name{
+    padding: 0rem 1rem 1rem;
+}
+
+.name input{
+   background-color: aqua;
+   padding: .5rem;
+   border-radius: .3rem;
+}
+
+.Email{
+    padding: 0rem 1rem 1rem;
+}
+
+.Email input{
+   background-color: aqua;
+   padding: .5rem;
+   border-radius: .3rem;
+}
+
+.Message{
+    padding: 0rem 1rem 1rem;
+}
+
+.Message textarea{
+    background-color: aqua;
+    border-radius: .3rem;
+    padding: .5rem;
+}
+
+.ultimatefooter{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    padding: 2rem 8rem 2rem;
+    background-color: rgba(6, 17, 68, 0.863);
+    color: #fff;
+}
+
+.ultimatefooter a{
+    background-color: #fff;
+    border-radius: 1rem;
+    font-size: 1.5rem;
 }
