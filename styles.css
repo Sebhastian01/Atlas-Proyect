@@ -24,14 +24,12 @@ header{
 .header1 {
     display: flex;
     justify-content: space-between;
-    border: 2px solid;
     padding: 1rem 8rem 1rem;
     color: aliceblue;
     align-items: center;
 }
 
 .header2{
-    border: 2px solid;
     padding: 1rem 8rem 2rem;
     color: aliceblue;
 }
@@ -62,7 +60,6 @@ background-color: #fff;
 
 .div1{
     display: flex;
-    border: 2px solid;
     flex-direction: column;
     padding: 4rem 8rem 4rem;
     text-align: center;
@@ -100,7 +97,6 @@ background-color: #fff;
     display: flex;
     justify-content: space-around;
     padding: 4rem 8rem 4rem;
-    border: 2px solid;
     position: relative;
     z-index: 1;
 }
@@ -109,7 +105,6 @@ background-color: #fff;
     display: flex;
     justify-content: space-around;
     padding: 4rem 8rem 4rem;
-    border: 2px solid;
     position: relative;
     z-index: 1;
 }
@@ -130,10 +125,8 @@ svg{
 
 .div4{
     display: flex;
-    border: 2px solid;
     flex-direction: column;
     padding: 4rem 8rem 6rem;
-    border: 2px solid;
 }
 
 .tittlediv4{
@@ -157,7 +150,6 @@ svg{
 .div5{
     display: flex;
     justify-content: space-around;
-    border: 2px solid;
     padding: 3rem 8rem 3rem;
     background-color: rgb(238, 234, 230);
 }
@@ -195,7 +187,6 @@ span{
 }
 
 .premium{
-    border: 2px solid;
     background-color:#192440 ;
     color: #fff;
     padding: 3rem;
@@ -204,7 +195,6 @@ span{
 
 .premium1{
     padding: 3rem;
-    border: 2px solid;
     width: 30%;
 }
 
@@ -237,9 +227,6 @@ span{
     text-align: center;
 }
 
-.footer{
-    border: 2px solid;
-}
 
 .footer h2{
     padding: 0rem 0rem 1rem;
@@ -289,7 +276,6 @@ span{
 .Message{
     padding: 0rem 1rem 1rem;
     width: 100%;
-    border:2px solid;
     color: #00ffad;
 }
 
@@ -304,7 +290,6 @@ span{
 .ultimatefooter{
     display: flex;
     justify-content: space-between;
-    border: 2px solid;
     padding: 2rem 8rem 2rem;
     background-color: #192440;
     color: #fff;
