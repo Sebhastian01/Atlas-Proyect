@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+  body{
+    height: 100%;
+    width: 100%;
+  }
 
 header{
     margin: 2px solid;
@@ -13,18 +17,22 @@ header{
     background-size: cover;
 }
 
+.header1 img{
+    width: 5rem;
+}
+
 .header1 {
     display: flex;
     justify-content: space-between;
     border: 2px solid;
-    padding: 1rem 8rem 0rem;
+    padding: 1rem 8rem 1rem;
     color: aliceblue;
     align-items: center;
 }
 
 .header2{
     border: 2px solid;
-    padding: 1rem 8rem 1rem;
+    padding: 1rem 8rem 2rem;
     color: aliceblue;
 }
 
@@ -56,7 +64,26 @@ background-color: #fff;
     display: flex;
     border: 2px solid;
     flex-direction: column;
-    padding: 2rem 8rem 2rem;
+    padding: 4rem 8rem 4rem;
+    text-align: center;
+}
+
+.div1 h2{
+    font-size: 2rem;
+}
+
+.div1 h3{
+    padding: 0rem 0rem .5rem;
+}
+
+.div2 h2{
+    font-size: 2rem;
+    padding: 0rem 0rem 1rem;
+}
+
+.div3 h2{
+    font-size: 2rem;
+    padding: 0rem 0rem 1rem;
 }
 
 .article1{
@@ -72,22 +99,27 @@ background-color: #fff;
 .div2{
     display: flex;
     justify-content: space-around;
-    padding: 2rem 8rem 2rem;
+    padding: 4rem 8rem 4rem;
     border: 2px solid;
 }
 
 .div3{
     display: flex;
     justify-content: space-around;
-    padding: 2rem 8rem 2rem;
+    padding: 4rem 8rem 4rem;
     border: 2px solid;
+}
+
+.div3 svg{
+    width: 100%;
+    height: 100%;
 }
 
 .div4{
     display: flex;
     border: 2px solid;
     flex-direction: column;
-    padding: 2rem 8rem 2rem;
+    padding: 4rem 8rem 6rem;
     border: 2px solid;
 }
 
@@ -104,29 +136,41 @@ background-color: #fff;
 }
 
 .cardsdiv4 h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0rem 0rem 2rem;
+    text-align: center;
 }
 
 .div5{
     display: flex;
     justify-content: space-around;
     border: 2px solid;
-    padding: 2rem 8rem 2rem;
+    padding: 3rem 8rem 3rem;
+    background-color: rgb(238, 234, 230);
 }
 
-.main button{
+.div2 button{
     border-radius: 3rem;
-    background-color:#fff;
+    background-color:#192440;
     padding: .7rem;
     color: #fff;
-    color: #192440;
     border-color: #192440;
+    margin: 2rem 0rem 0rem;
+}
+
+.div3 button{
+    border-radius: 3rem;
+    background-color:#192440;
+    padding: .7rem;
+    color: #fff;
+    border-color: #192440;
+    margin: 2rem 0rem 0rem;
 }
 
 .price1{
     display: flex;
     align-items: baseline;
+    justify-content: center;
 }
 
 .price1 p{
@@ -134,8 +178,42 @@ background-color: #fff;
 }
 
 span{
-    font-size: 5rem;
+    font-size: 3rem;
+}
 
+.premium{
+    border: 2px solid;
+    background-color:#192440 ;
+    color: #fff;
+    padding: 3rem;
+    width: 30%;
+}
+
+.premium1{
+    padding: 3rem;
+    border: 2px solid;
+    width: 30%;
+}
+
+.premium button{
+    padding: .5rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    color: #192440;
+    align-self: center;
+    background-color: #00ffad;
+}
+
+.premium1 button{
+    padding: .5rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    color: #192440;
+    align-self: center;
 }
 
 .textprice{
@@ -148,7 +226,6 @@ span{
 
 .footer{
     border: 2px solid;
-    padding:  2rem 0rem 0rem;
 }
 
 .footer h2{
@@ -166,7 +243,7 @@ span{
 .footer1{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 8rem 2rem;
+    padding: 4rem 8rem 4rem;
     background-image: url(assets/contact-bk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,5 +306,7 @@ span{
 .Message button{
     width: 100%;
     background-color: #00ffad;
+    border-radius: 2rem;
     color: black;
+    padding: .5rem;
 }
